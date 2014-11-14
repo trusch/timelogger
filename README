@@ -1,0 +1,20 @@
+timelogger.sh - timelogging made easy
+
+timelogger logs your time to a local git repo and pushes it to a remote.
+to get started simply type
+    bash timelogger.sh --init
+
+to log your time type
+    bash timelogger.sh --project myproject --hours 8 --message "worked on project"
+
+usage: timelogger.sh
+-u | --user       Your username
+-r | --remote     Timelogging repository
+-b | --branch     Userbranch
+-d | --date       Date of worklog
+-p | --project    Project you worked on
+-h | --hours      How many hours you worked
+-m | --message    The description of the worklog
+     --init            Initialize / reset your timelogger
+     --help            Print this help
+
